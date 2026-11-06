@@ -1,0 +1,6 @@
+{
+  "name": "claude-setup",
+  "description": "Panneau de suivi en direct du pipeline /ship",
+  "owner": { "name": "MielPopsssssss" },
+  "plugins": [{ "name": "ship-monitor", "source": "./mods/ship-monitor" }]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ship-monitor",
+  "version": "0.1.0",
+  "description": "Live pane for the /ship pipeline: phase graph, cost and context, and the messages exchanged with each subagent",
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,16 @@
+# Caveman & Ponytail — exceptions (prime sur leurs consignes)
+
+**Caveman ne s'applique qu'aux réponses dans le chat.** Rédiger en prose
+normale, complète, quand le texte sort de la conversation :
+- doc versionnée (`docs/**`, `CLAUDE.md`, `README`, `HANDOFF.md`) ;
+- corps et titres de PR, messages de commit (Conventional Commits avec corps), commentaires d'issue ou de PR, messages Slack ;
+- copie UI et fichiers i18n, templates e-mail ;
+- commentaires de code et JSDoc ;
+- les plans à valider, et toute explication d'un risque, d'une action irréversible ou d'un incident.
+
+**Ponytail ne retire jamais ce qu'un repo exige.** « Le moins de code » s'arrête à :
+- les tests imposés par le `CLAUDE.md` du repo ;
+- la page de doc de la surface touchée et, pour une migration, sa migration inverse ;
+- toutes les langues i18n du repo et la clé d'erreur d'un nouveau code API ;
+- la validation d'entrée, le scoping tenant/RLS et les gardes de sécurité.
+Le minimalisme vise la logique et les abstractions, pas ces obligations.
